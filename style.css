@@ -1,0 +1,173 @@
+html,
+body {
+  margin: 0;
+}
+html {
+  font-family: 'helvetica neue', sans-serif;
+}
+#nav-main {
+  margin-left: 6%;
+  margin-right: 6%;
+}
+#wholecontent{
+  margin-left: 6%;
+  margin-right: 6%;
+}
+.btn,.btn1{
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to right,
+    rgb(19, 245, 121),
+    rgba(0, 183, 255)
+  );
+  align-self: center;
+}
+#nav-main{
+  position: sticky;
+  top: 0;
+  }
+  .nav{
+    background-color: white;
+  display: flex;
+  
+  border-bottom: 1px solid #eaeaeb;
+  justify-content: space-between;
+  height: 10%;
+  }
+
+#image-logo {
+  width: 20%;
+  height: 20%;
+  margin-top: 1%;
+}
+
+.menu {
+  margin: 0 30px 0 0;
+}
+.menu a {
+  clear: right;
+  text-decoration: none;
+  color: gray;
+  margin: 0 10px;
+  line-height: 70px;
+}
+
+span {
+  color: #54d17a;
+}
+
+label {
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  width: 26px;
+  float: right;
+}
+#toggle {
+  display: none;
+}
+
+#nextgenaration {
+  display: flex;
+  height:500px;
+  margin-top: -20px;
+  background-image:url(./images/bg-intro-desktop.svg);
+  background-size: 50%;
+  background-position: top right;
+  background-repeat: no-repeat;
+  justify-content: space-between;
+  
+ 
+}
+.next{
+  align-self: center;
+}
+.mobile-logo{
+  margin-top:-20px;
+  height:130%;
+}
+.next1{
+  font-size: 70px;
+  color:rgb(53, 45, 45);
+  
+}
+.next2{
+  margin-top:-20px;
+  color:rgb(158, 154, 154);
+  
+}
+.content{
+  margin-top: 15%;
+  margin-bottom: 5%;  
+}
+.content1{
+  font-size: 50px;
+}
+
+.bullet-point{
+  display:flex;
+  justify-content: space-evenly;
+  
+}
+.content2,.point2{
+  color:rgb(158, 154, 154);
+  margin-top:1%;
+}
+
+.point1{
+  font-size:20px;
+}
+
+#article{
+  display: flex;
+  justify-content: space-evenly;
+}
+.image-a{
+  width:80%;
+  height:60%;
+  border-radius: 10px;
+}
+
+#head{
+  font-size: 40px;
+
+}
+.a1{
+  font-size: 10px;
+}
+.a2{
+  20px;
+}
+.a3{
+  font-size: 12px;
+}
+.a1,.a3{
+  color:rgb(114, 109, 109);
+}
+
+.footer-grid{
+  margin-left:6%;
+  margin-right: 6%;
+  color:white;
+  display: grid;
+  grid-template-row:200px 200px 200px 200px 200px;
+  grid-template-columns: repeat(4,1fr);
+  
+}
+
+
+
+
+.social-logo{
+  length:20px;
+  height:20px;
+}
+#footer{
+  margin-top:4%;
+  background:rgb(19, 11, 48);
+  height:150px;
+  
+}
