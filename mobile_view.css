@@ -114,7 +114,8 @@
 }
 #article{
   display: block;
-  margin-bottom: 30px;
+ 
+  margin:30px;
 }
 #article1,#aricle2,#aricle3,#aricle4{
   margin:5px;

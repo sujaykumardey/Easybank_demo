@@ -109,7 +109,8 @@ label {
 
 .bullet-point{
   display:flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  margin:10px;
   
 }
 .content2,.point2{
@@ -123,7 +124,8 @@ label {
 
 #article{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  margin:20px;
 }
 .image-a{
   width:80%;
@@ -148,26 +150,25 @@ label {
   color:rgb(114, 109, 109);
 }
 
-.footer-grid{
+.footer-part{
   margin-left:6%;
   margin-right: 6%;
+  padding:20px;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
   color:white;
-  display: grid;
-  grid-template-row:200px 200px 200px 200px 200px;
-  grid-template-columns: repeat(4,1fr);
+  height:200px;
   
 }
-
-
-
-
-.social-logo{
+#social-media{
   length:20px;
   height:20px;
+  margin-top:2%;
 }
 #footer{
-  margin-top:4%;
   background:rgb(19, 11, 48);
-  height:150px;
-  
+  height:200px;
+  margin-top: 2%;
 }
