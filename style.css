@@ -1,22 +1,22 @@
 html,
 body {
-  margin: 0;
+  margin: 0px;
+  background-image: url(./images/image-mockups.png),
+    url(./images/bg-intro-desktop.svg);
+  background-size: 50% 50%,50% 40%;
+  background-position: 110% -10%, top right;
+  background-repeat: no-repeat no-repeat;
 }
+
 html {
   font-family: 'helvetica neue', sans-serif;
 }
-#nav-main {
-  margin-left: 6%;
-  margin-right: 6%;
-}
-#wholecontent{
-  margin-left: 6%;
-  margin-right: 6%;
-}
-.btn,.btn1{
-  width: 150px;
-  height: 40px;
-  border-radius: 10px;
+
+.btn,
+.btn1 {
+  padding: 0.7rem 3rem 0.7rem 3rem;
+
+  border-radius: 0.5rem;
   background-image: linear-gradient(
     to right,
     rgb(19, 245, 121),
@@ -24,18 +24,21 @@ html {
   );
   align-self: center;
 }
-#nav-main{
+
+#nav-main {
   position: sticky;
   top: 0;
-  }
-  .nav{
-    background-color: white;
+  background-color: white;
+}
+
+.nav {
   display: flex;
-  
   border-bottom: 1px solid #eaeaeb;
   justify-content: space-between;
-  height: 10%;
-  }
+  margin-left: 6%;
+  margin-right: 6%;
+  
+}
 
 #image-logo {
   width: 20%;
@@ -43,132 +46,161 @@ html {
   margin-top: 1%;
 }
 
-.menu {
-  margin: 0 30px 0 0;
+.menu{
+  margin-top:1rem;
 }
+
+
 .menu a {
-  clear: right;
   text-decoration: none;
   color: gray;
   margin: 0 10px;
-  line-height: 70px;
+  
 }
-
-span {
-  color: #54d17a;
+#toggle{
+  display:none;
 }
-
-label {
-  margin: 0 40px 0 0;
-  font-size: 26px;
-  line-height: 70px;
-  display: none;
-  width: 26px;
-  float: right;
+#toggle-item{
+  display:none;
 }
-#toggle {
-  display: none;
+#wholecontent {
+  margin-left: 6%;
+  margin-right: 6%;
 }
 
 #nextgenaration {
   display: flex;
-  height:500px;
-  margin-top: -20px;
-  background-image:url(./images/bg-intro-desktop.svg);
-  background-size: 50%;
-  background-position: top right;
-  background-repeat: no-repeat;
-  justify-content: space-between;
-  
- 
+  margin-top: 15%;
+  justify-content: flex-start;
 }
-.next{
+
+.nextgenaration-info {
   align-self: center;
 }
-.mobile-logo{
-  margin-top:-20px;
-  height:130%;
+.mobile-logo {
+  margin-top: -4rem;
+  height: 130%;
 }
-.next1{
-  font-size: 70px;
-  color:rgb(53, 45, 45);
-  
+.nextgenaration-info-head {
+  font-size: 4rem;
+  color: rgb(53, 45, 45);
 }
-.next2{
-  margin-top:-20px;
-  color:rgb(158, 154, 154);
-  
+.nextgenaration-info-content {
+  margin-top: -20px;
+  color: rgb(158, 154, 154);
 }
-.content{
+.content {
   margin-top: 15%;
-  margin-bottom: 5%;  
+  margin-bottom: 5%;
 }
-.content1{
-  font-size: 50px;
-}
-
-.bullet-point{
-  display:flex;
-  justify-content: space-between;
-  margin:10px;
-  
-}
-.content2,.point2{
-  color:rgb(158, 154, 154);
-  margin-top:1%;
+.content1 {
+  font-size: 3rem;
 }
 
-.point1{
-  font-size:20px;
-}
-
-#article{
+.bullet-point {
   display: flex;
   justify-content: space-between;
-  margin:20px;
+  margin: 10px;
 }
-.image-a{
-  width:80%;
-  height:60%;
+.content2,
+.point2 {
+  color: rgb(158, 154, 154);
+  margin-top: 1%;
+}
+
+.point1 {
+  font-size: 1.5rem;
+}
+
+#article {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.image-a {
+  width: 80%;
+  height: 60%;
   border-radius: 10px;
 }
 
-#head{
-  font-size: 40px;
-
+#article-head {
+  font-size: 3rem;
 }
-.a1{
+.article-title {
   font-size: 10px;
 }
-.a2{
-  20px;
-}
-.a3{
+
+.article-info {
   font-size: 12px;
 }
-.a1,.a3{
-  color:rgb(114, 109, 109);
+.article-title,
+.article-info {
+  color: rgb(114, 109, 109);
+}
+#latestarticle{
+  margin-bottom:10%;
 }
 
-.footer-part{
-  margin-left:6%;
+#article1,#article2,#article3,#article4{
+  margin:1%;
+}
+
+
+/* .footer-part {
+  margin-left: 6%;
   margin-right: 6%;
-  padding:20px;
-  display:flex;
+  padding: 20px;
+  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-content: space-around;
-  color:white;
-  height:200px;
-  
+  color: white;  
 }
-#social-media{
-  length:20px;
-  height:20px;
-  margin-top:2%;
-}
-#footer{
-  background:rgb(19, 11, 48);
-  height:200px;
+
+#footer {
+  background: rgb(19, 11, 48);
   margin-top: 2%;
 }
+
+
+#image-logo-svg{
+  fill:white;
+}
+
+#image-logo-svg{
+  margin-top:5%;
+  margin-bottom: 5%;
+} */
+
+.footer{
+  background-color:rgba(3, 7, 44, 0.747);
+}
+
+.footer-part{
+
+margin-right:9%;
+margin-left:9%;
+display:grid;
+grid-template-areas: 
+'image-logo  about  careers btn1'
+'image-logo contact  support btn1'
+'social-media-post blog privacy easybank'  
+
+}
+.image-logo{
+  grid-area:image-logo;
+  display:flex;
+  margin-left:15%;
+  align-items: center;
+}
+.social-media-post{
+  grid-area:social-media-post;
+  margin-left:15%;
+}
+
+.btn{
+  grid-area:btn1;
+    
+  
+}
+

@@ -1,12 +1,20 @@
   
-   #image-logo{
+html,
+body {
+  margin: 0px;
+  background-image:url(./images/image-mockups.png),url(./images/bg-intro-mobile.svg);
+  background-position: 0 -2%,0 0;
+  background-size: 100% 15%,100% 15%;
+  background-repeat: no-repeat,no-repeat;
+}
+
+#image-logo{
     width: 40%;
-    height: 50%;
-    margin-top:2%;
-   
- }
+}
+
  #nav-main{
   margin:0px;
+  background-color: white;
 }
 #wholecontent{
   margin:0%;
@@ -19,145 +27,191 @@
     position:sticky;
     top:0;
   }
-.nav{
-  display:flex;
-    justify-content: space-between;
+
+  .nav {
     border-bottom: 1px solid #EAEAEB;
     text-align: right;
     height: 70px;
     line-height: 70px;
-    background-color:white;
+    background-color: white;
+}
+.menu {
+    margin: 0 30px 0 0;
+    background-color: white;
+}
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color: gray;
+    margin: 0 10px;
+    line-height: 70px;
 }
 
-  label {
-      display: block;
-      cursor: pointer;
-  }
-  .menu {
-    background-color: brown;
-      width: 200px;
-      height:300px;
-      
-      text-align: left;
-      width: 100%;
-      display: none;
-     
-      margin:3%;
-      border-radius: 10px;
-      background-color: white;
-  }
-  .menu a {
-      display: block;
-      border-bottom: 1px solid #EAEAEB;
-      margin: 0;
-   
-  }
-  #toggle:checked + .menu {
-      display: block;
 
-  }
-  #mobile{
-    position: absolute;
-    width:100%;
-    height:400px;
-    margin-top:-130px;
-    /* margin-left:50px; */
-  }
+label {    
+    font-size: 20px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: top;
+    
+}
 
-  #nextgenaration{
-    margin-top:-20px;
+
+
+#image-logo{
+  padding-top:10%;
+  
+
+}
+#toggle-item{
+  display: inline;
+}
+
+label {
+  display: block;
+  cursor: pointer;
+}
+.menu {
+  text-align: center;
+  width: 100%;
+  display: none;
+}
+.menu a {
+  display: block;
+  border-bottom: 1px solid #EAEAEB;
+  margin: 0;
+
+}
+#toggle:checked + .menu {
+  display: block;
+}
+
+  
+#nextgenaration{
+    margin-top:30%;
     display:flex;
     justify-content: space-between;
-    background-image:url(./images/image-mockups.png),url(./images/bg-intro-mobile.svg);
-    background-size: 300px 400px;
-    background-position:0px -100px;
-    background-repeat: no-repeat;
+   
+   
   }
- .mobile-logo{
-    display:none;
-    
+
+  .content{
+    margin-top: 10%;
+    margin-bottom: 5%;  
   }
-.next{
+  .content1{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .content2{
+    margin-top:1rem;
+  }
+
+
+
+
+  .logo{
+    width:20%;
+    height:25%;
+  }
+
+  
+.nextgenaration-info{
   text-align: center;
 }
-.next1{
-  margin-top:320px;
-  font-size: 40px;
+.nextgenaration-info-head{
+  margin-top:90%;
+  font-size: 2.5rem;
 }
 
-.next1,.next2{
+.nextgenaration-info-head,.nextgenaration-info-content{
   text-align: center;
 }
-.next2{
+.nextgenaration-info-content{
   color:rgb(139, 136, 136);
  }
-.btn1{
-  width:150px;
-   height:40px;
-   border-radius: 10px;
-   background-image:linear-gradient(to right, rgb(19, 245, 121) , rgba(0, 183, 255));
-}
+.btn1,.btn2{
+ padding:0.5rem 2rem 0.5rem 2rem;
+  }
+
  
 #whywechoose{
   text-align: center;
   background-color: rgba(247, 242, 242, 0.993);
 }
 #whywechoose #main-content .content .content1{
-  margin-top:100px;
+  margin-top:5%;
 }
 
 .bullet-point{
   display: block;
  }
+
 #latestarticle{
   text-align: center;
 }
+
 #article{
-  display: block;
- 
-  margin:30px;
+  display: block; 
+  margin:2rem;
 }
+
 #article1,#aricle2,#aricle3,#aricle4{
-  margin:5px;
+  margin:3rem;
 }
+
 .image-a{
   width:50%;
   height:50%;
-  border-radius: 10px;
+  border-radius: 0.2rem;
 }
 
-#head{
-  font-size: 40px;
+#article-head{
+  font-size: 2rem;
+}
 
+.article-title{
+  font-size: 0.8rem;
 }
-.a1{
-  font-size: 10px;
+
+
+.article-info{
+  font-size: 1rem;
 }
-.a2{
-  20px;
-}
-.a3{
-  font-size: 12px;
-}
-.a1,.a3{
+.article-title,.article-info{
   color:rgb(114, 109, 109);
 }
-#footer{
-  background:rgb(68, 54, 117);
-  height:400px;
+
+.footer{
+  background-color:rgba(3, 7, 44, 0.747);
 }
 
 .footer-part{
-  margin-top:0%;
-  display: block;
-  text-align: center;
-  color:white;
-}
-#image-logo{
+text-align: center;
 color:white;
-margin:0%;
+display:grid;
+grid-template-areas: 
+'image-logo'
+'social-media-post'    
+'about'
+'contact' 
+'blog'
+'careers'
+'support'
+'privacy'
+'btn1'
+'easybank'
 }
-.social-logo{
-  length:20px;
-  height:20px;
+
+.image-logo{
+  grid-area:image-logo;
+  align-items: center;
 }
+.social-media-post{
+  grid-area:social-media-post;
+ }
+
+.btn1{
+  grid-area:btn1;
+  }
