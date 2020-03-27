@@ -3,7 +3,7 @@ body {
   margin: 0px;
   background-image: url(./images/image-mockups.png),
     url(./images/bg-intro-desktop.svg);
-  background-size: 50% 50%,50% 40%;
+  background-size: 50% 50%, 50% 40%;
   background-position: 110% -10%, top right;
   background-repeat: no-repeat no-repeat;
 }
@@ -14,9 +14,8 @@ html {
 
 .btn,
 .btn1 {
-  padding: 0.7rem 3rem 0.7rem 3rem;
-
-  border-radius: 0.5rem;
+  padding: 0.7rem 2rem 0.7rem 2rem;
+  border-radius: 10px;
   background-image: linear-gradient(
     to right,
     rgb(19, 245, 121),
@@ -37,7 +36,6 @@ html {
   justify-content: space-between;
   margin-left: 6%;
   margin-right: 6%;
-  
 }
 
 #image-logo {
@@ -46,22 +44,20 @@ html {
   margin-top: 1%;
 }
 
-.menu{
-  margin-top:1rem;
+.menu {
+  margin-top: 5%;
 }
-
 
 .menu a {
   text-decoration: none;
   color: gray;
   margin: 0 10px;
-  
 }
-#toggle{
-  display:none;
+#toggle {
+  display: none;
 }
-#toggle-item{
-  display:none;
+#toggle-item {
+  display: none;
 }
 #wholecontent {
   margin-left: 6%;
@@ -72,15 +68,13 @@ html {
   display: flex;
   margin-top: 15%;
   justify-content: flex-start;
+  width: 40vw;
 }
 
 .nextgenaration-info {
   align-self: center;
 }
-.mobile-logo {
-  margin-top: -4rem;
-  height: 130%;
-}
+
 .nextgenaration-info-head {
   font-size: 4rem;
   color: rgb(53, 45, 45);
@@ -90,8 +84,11 @@ html {
   color: rgb(158, 154, 154);
 }
 .content {
+  display: flex;
+  flex-direction: column;
   margin-top: 15%;
   margin-bottom: 5%;
+  width: 40vw;
 }
 .content1 {
   font-size: 3rem;
@@ -122,12 +119,15 @@ html {
   height: 60%;
   border-radius: 10px;
 }
-
+.article-h {
+  display: flex;
+  width: 30vw;
+}
 #article-head {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 .article-title {
-  font-size: 10px;
+  font-size: 0.8rem;
 }
 
 .article-info {
@@ -137,14 +137,16 @@ html {
 .article-info {
   color: rgb(114, 109, 109);
 }
-#latestarticle{
-  margin-bottom:10%;
+#latestarticle {
+  margin-bottom: 10%;
 }
 
-#article1,#article2,#article3,#article4{
-  margin:1%;
+#article1,
+#article2,
+#article3,
+#article4 {
+  margin: 1%;
 }
-
 
 /* .footer-part {
   margin-left: 6%;
@@ -172,36 +174,38 @@ html {
   margin-bottom: 5%;
 } */
 
-.footer{
-  background-color:rgba(3, 7, 44, 0.747);
+#wholecontent {
+  margin-bottom: 5%;
 }
 
-.footer-part{
-
-margin-right:9%;
-margin-left:9%;
-color:white;
-display:grid;
-grid-template-areas: 
-'image-logo  about  careers btn1'
-'image-logo contact  support btn1'
-'social-media-post blog privacy easybank'  
-
+.footer {
+  margin-top: 5%;
+  background-color: rgba(3, 7, 44, 0.747);
 }
-.image-logo{
-  grid-area:image-logo;
-  display:flex;
-  margin-left:15%;
+
+.footer-part {
+  margin-top: 5%;
+  margin-right: 9%;
+  margin-left: 9%;
+  color: white;
+  display: grid;
+  grid-template-areas:
+    'image-logo  about  careers btn'
+    'image-logo contact  support btn'
+    'social-media-post blog privacy easybank';
+}
+.image-logo {
+  grid-area: image-logo;
+  display: flex;
+  margin-left: 15%;
   align-items: center;
 }
-.social-media-post{
-  grid-area:social-media-post;
-  margin-left:15%;
+.social-media-post {
+  grid-area: social-media-post;
+  margin-left: 15%;
 }
 
-.btn{
-  grid-area:btn1;
-    
+.btn {
+  grid-area: btn;
   
 }
-

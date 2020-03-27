@@ -18,7 +18,7 @@ body {
 }
 #wholecontent{
   margin:0%;
-}
+ }
 .btn{
     display:none;
   }
@@ -89,16 +89,36 @@ label {
 
   
 #nextgenaration{
-    margin-top:30%;
     display:flex;
-    justify-content: space-between;
-   
+    /* background-color: violet; */
+    width: 100vw;
+    text-align: center;
+    margin-top: 90%;
+   }
+
+  .nextgenaration-info-head{
+    margin-top: 100px;
+    font-size: 2rem;
    
   }
-
+  
+  
+  
+  .nextgenaration-info-content{
+    color:rgb(139, 136, 136);
+   }
+   #main-content{
+      width: 100vw;
+      text-align: center;
+     
+   }
   .content{
     margin-top: 10%;
-    margin-bottom: 5%;  
+    width: 100vw;
+    text-align: center;
+    
+   
+    
   }
   .content1{
     font-size: 1.5rem;
@@ -117,31 +137,19 @@ label {
   }
 
   
-.nextgenaration-info{
-  text-align: center;
-}
-.nextgenaration-info-head{
-  margin-top:90%;
-  font-size: 2.5rem;
-}
 
-.nextgenaration-info-head,.nextgenaration-info-content{
-  text-align: center;
-}
-.nextgenaration-info-content{
-  color:rgb(139, 136, 136);
- }
 .btn1,.btn2{
  padding:0.5rem 2rem 0.5rem 2rem;
   }
 
  
 #whywechoose{
-  text-align: center;
+  
   background-color: rgba(247, 242, 242, 0.993);
 }
 #whywechoose #main-content .content .content1{
   margin-top:5%;
+  
 }
 
 .bullet-point{
@@ -150,11 +158,14 @@ label {
 
 #latestarticle{
   text-align: center;
+  }
+.article-h{
+  text-align: center;
 }
-
 #article{
   display: block; 
   margin:2rem;
+  text-align: center;
 }
 
 #article1,#aricle2,#aricle3,#aricle4{
@@ -193,6 +204,7 @@ color:white;
 display:grid;
 grid-template-areas: 
 'image-logo'
+
 'social-media-post'    
 'about'
 'contact' 
@@ -200,18 +212,19 @@ grid-template-areas:
 'careers'
 'support'
 'privacy'
-'btn1'
+'btn'
 'easybank'
 }
 
 .image-logo{
   grid-area:image-logo;
-  align-items: center;
+  padding:1rem; 
+ 
 }
 .social-media-post{
   grid-area:social-media-post;
  }
 
-.btn1{
-  grid-area:btn1;
+.btn{
+  grid-area:btn;
   }
