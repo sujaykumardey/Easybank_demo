@@ -180,6 +180,7 @@ html {
 
 margin-right:9%;
 margin-left:9%;
+color:white;
 display:grid;
 grid-template-areas: 
 'image-logo  about  careers btn1'
